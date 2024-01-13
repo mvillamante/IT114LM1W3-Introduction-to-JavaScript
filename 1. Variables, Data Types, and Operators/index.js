@@ -5,24 +5,21 @@
 
 // DONE Use the var keyword to define a variable. Log the variable to the console. Now try moving the variable declaration after you log the variable.
 // Your code here
-var x = 10;
-var y = 6;
-var prod = x * y;
-console.log(prod);
 
+var text = "Hello, World!";
+console.log(text);
 
 // DONE Use the let keyword to define a variable.
 // Your code here
 
-let a = 10;
-console.log(a);
+let fullName = "Michaella Villamante";
+console.log(fullName);
 
 // DONE Use the const keyword to define a variable. Try reassigning the value of the variable. What happens?
 // Your code here
 
-const fname = "Michaella";
-const lname = "Villamante";
-console.log(fname,lname);
+const fname = "Noela";
+console.log(fname);
 
 
 // Checkpoint 1.1 What is the difference between var, let, and const?
@@ -35,60 +32,65 @@ const - once assigned a value, constants cannot be reassigned or modified*/
 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#arithmetic_operators
 // Your code here
 
-let num1 = 4;
-let num2 = 2;
-let answer = num1 ** num2;
-console.log(answer);
+let sum = 5 + 3;
+console.log("Addition:", sum);
 
-let ans = (100 + 500) * num1;
-console.log(ans);
+let difference = 10 - 4;
+console.log("Subtraction:", difference);
 
-let n1 = 10;
-let n2 = 8;
-let ntotal = n1 % n2;
-console.log(ntotal);
+let product = 3 * 7;
+console.log("Multiplication:", product);
+
+let quotient = 15/3;
+console.log("Division:", quotient);
 
 // Checkpoint 1.2 What operators did you use?
-// Answer: exponentiation, addition, multiplication, modulus
+// Answer: add, subtract, multiply, divide 
 
-// TODO 1.5 Try out the different string operators
+// DONE Try out the different string operators
 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#string_operators
 // Your code here
+
 let name1 = "Juliana";
 let name2 = "Noela";
 let result = name1 + " " + name2;
-let alp = name1 < name2;
-console.log(alp);
-console.log(result);
+console.log("Names:", result);
+
+let greetings = "Hello, ";
+greetings += "world!";
+console.log(greetings);
 
 
 // Checkpoint 1.3 What operators did you use?
-// Answer: + to concatenate, less than
+// Answer: + and += for concatenation
 
-// TODO 1.6 Try out the different logical operators
+// DONE Try out the different logical operators
 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#logical_operators
 // Your code here
 
-let cat = true;
-let dog = false;
+let isTrue = true;
+let isFalse = false;
 
-let animal1 = cat && dog;
-let animal2 = cat || dog;
-console.log(animal1);
-console.log(animal2);
+console.log("and", isTrue && isFalse);
+console.log("or", isTrue || isFalse);
+console.log("not", !isTrue);
 
 // Checkpoint 1.4 What operators did you use?
-// Answer: && and ||
+// Answer: and, or, not
 
 
-// TODO 1.7 Try out the different relational operators
+// DONE Try out the different relational operators
 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#relational_operators
-const color = ["red", "orange", "yellow", "green"];
-console.log("colors");
-console.log(1 in color);
-console.log(0 in color);
-console.log("green" in color);
+
+let a = 20;
+let b = 50;
+
+console.log("Equal to:", a == b);
+console.log("Not equal to:", a != b);
+console.log("Greater than:", a > b);
+console.log("Less than:", a < b);
 
 // Checkpoint 1.5 What does [] == false evaluate to? Why does that happen? Research why
-// Answer: 
-// Your code here
+// Answer:The [] == false evaluates to true due to rules of type coercion
+// The empty array is coerced to true as it is considered truthy, leading to comparison true == false
+// Using string equality operator '===' is recommended for more precise comparisons
