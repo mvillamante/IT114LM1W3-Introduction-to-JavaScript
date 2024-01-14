@@ -23,7 +23,7 @@ greet("Ella");
 // - can only be called after the expression has been evaluated
 
 
-// Todo 4.2 Declare a function expression named 'calculateArea' that takes the length and width of a rectangle and returns its area
+// DONE Declare a function expression named 'calculateArea' that takes the length and width of a rectangle and returns its area
 // Then, Call the 'calculateArea' function with any length and width as arguments
 // Your code here
 
