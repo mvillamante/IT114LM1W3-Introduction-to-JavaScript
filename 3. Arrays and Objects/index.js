@@ -67,7 +67,7 @@ const IT114Lcourse = {
 
 console.log("Professor Name:", IT114Lcourse.profName);
 
-// Todo 3.5 Declare and array of objects with information about the courses you are taking this term
+// DONE Declare and array of objects with information about the courses you are taking this term
 // Your code here
 
 const termCourses = [
@@ -136,7 +136,7 @@ console.log("Total Units for This Term:", totalUnits);
 
 // Checkpoint 3.2 What would be the equivalent of objects in python? How would you compare them?
 // Answer: The equivalent of Javascript objects in Python is Dictionaries.
-// Javascript - use dot or bracket notation , Python - use square brackets
+// JS - use dot or bracket notation , Python - use square brackets
 // JS - {key: value} syntax, Python - {"key": value} syntax
 // JS - object keys can be strings or symbols, Python - strings, integers, or tuples
 
@@ -145,10 +145,7 @@ console.log("Total Units for This Term:", totalUnits);
 
 let newArray = [...numbers, 70];
 
-console.log("Original Array:", numbers);
 console.log("New Array:", newArray);
-
-
 
 // DONE Going back to your IT114L object, extract the course code and units using the spread operator
 // Your code here

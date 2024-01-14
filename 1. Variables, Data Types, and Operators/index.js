@@ -32,16 +32,16 @@ const - once assigned a value, constants cannot be reassigned or modified*/
 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#arithmetic_operators
 // Your code here
 
-let sum = 5 + 3;
+const sum = 5 + 3;
 console.log("Addition:", sum);
 
-let difference = 10 - 4;
+const difference = 10 - 4;
 console.log("Subtraction:", difference);
 
-let product = 3 * 7;
+const product = 3 * 7;
 console.log("Multiplication:", product);
 
-let quotient = 15/3;
+const quotient = 15/3;
 console.log("Division:", quotient);
 
 // Checkpoint 1.2 What operators did you use?
