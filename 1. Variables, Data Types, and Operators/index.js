@@ -94,4 +94,4 @@ console.log("Less than:", a < b);
 // Checkpoint 1.5 What does [] == false evaluate to? Why does that happen? Research why
 // Answer:The [] == false evaluates to true due to rules of type coercion
 // The empty array is coerced to true as it is considered truthy, leading to comparison true == false
-// Using string equality operator '===' is recommended for more precise comparisons
+// Using string equality operator '===' is recommended for more precise comparisons.
