@@ -97,11 +97,14 @@ import isPalindrome from './isPalindrome.js';
 
 const word = "racecar";
 const evalWord = isPalindrome(word);
+
 console.log(evalWord);
 
 // Checkpoint 4.3 What does the require function and module.exports variable do?
 // Should we use it over the import and export keywords? Why? Research your answer.
 // Answer: 
-// the require function is used to import modules in Node.js
-// the module.exports variable is used to define what a module exports, making its functionality available for other modules to use
-// 
+// require function is used to include modules. It is commonly used to include built-in modules or modules installed via npm
+// module.exports variable is used to expose functionality from a moudle. Whatever is assigned to it is what will be returned when another module requires it
+// The usage of these varies in terms of compatibility. 
+// require and module.exports (if working in a Node.js environment or using CommonJS modules)
+// import and export (if working in a modern JS environment that supports ES6 modules)
