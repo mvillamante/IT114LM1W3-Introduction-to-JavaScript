@@ -16,6 +16,7 @@ let fullName = "Michaella Villamante";
 console.log(fullName);
 
 // DONE Use the const keyword to define a variable. Try reassigning the value of the variable. What happens?
+//when value is reassigned, the output becomes undefined
 // Your code here
 
 const fname = "Noela";

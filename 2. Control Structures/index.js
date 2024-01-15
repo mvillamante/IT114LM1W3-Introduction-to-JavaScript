@@ -62,7 +62,7 @@ console.log("toDisplay:", toDisplay);
         code to be executed if none 
 }*/
 
-// TODO 2.5 Use a for loop to print the numbers 1 to N
+// DONE Use a for loop to print the numbers 1 to N
 const n = 10
 // Your code here
 for (let i = 1; i <= n; i++) {
@@ -111,7 +111,7 @@ list.forEach((element) => {
 // for in - typically used for iterating over object properties (not recommended for arrays)
 // .forEach - specifically designed for arrays, useful for applying a function to each element in the array
 
-// TODO 2.10 Use the try and catch block to catch division by zero errors in the code below.
+// DONE Use the try and catch block to catch division by zero errors in the code below.
 // In the finally block, simulate cleaning up resources by displaying "cleaning up resources"
 const numerator = Math.floor((Math.random() * 100) + 1);
 const denominator = Math.floor((Math.random() * 5)); // feel free to mock this value for testing
@@ -132,19 +132,3 @@ try {
 } finally {
     console.log("cleaning up resources");
 }
-/*if(denominator === 0){
-    throw new Error("Division by zero error")
-} else {
-    console.log(numerator / denominator);
-}
-
-
-
-try {
-    const quotient = numerator / denominator;
-    if (denominator == 0) {
-        throw Error("Division by zero Error")
-    }
-} catch (error) {
-    console.log("ERROR");
-}*/

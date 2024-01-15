@@ -10,4 +10,4 @@ function isPalindrome(word) {
 
 // DONE Set the isPalindrome function as the default export of the module
 // Useful Tutorial: https://youtu.be/qgRUr-YUk1Q?si=ceAaeHJfCYCmeNWx
-module.exports = isPalindrome;
+export default isPalindrome;

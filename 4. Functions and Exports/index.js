@@ -80,7 +80,7 @@ console.log("Modified Numbers:", modNumbers);
 // Useful Tutorial: https://youtu.be/qgRUr-YUk1Q?si=ceAaeHJfCYCmeNWx
 // Your code here
 
-const { add, PI } = require('./mathUtils');
+import { add, PI } from './mathUtils.js';
 
 const sum = add(5, 7);
 console.log(sum);
@@ -93,9 +93,9 @@ console.log("Value of PI:", PI);
 // Your code here
 
 
-const isPalindrome = require('./isPalindrome');
+import isPalindrome from './isPalindrome.js';
 
-word = "racecar";
+const word = "racecar";
 const evalWord = isPalindrome(word);
 console.log(evalWord);
 

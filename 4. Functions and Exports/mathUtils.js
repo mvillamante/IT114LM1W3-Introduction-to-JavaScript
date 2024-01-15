@@ -11,8 +11,7 @@ const PI = 3.14159265359
 // DONE Export the function and constant
 // Useful Tutorial: https://youtu.be/qgRUr-YUk1Q?si=ceAaeHJfCYCmeNWx
 
-
-module.exports = {
+export {
     add,
     PI
-};
+}
