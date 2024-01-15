@@ -33,7 +33,7 @@ console.log("Uppercase Letters:", upWords);
 // DONE Use the filter method to create a new array that contains only the words with more than four letters in the array
 // Your code here
 
-const randWords = ["grape", "banana", "date", "apple"];
+const randWords = ["grape", "banana", "date", "apple", "cord"];
 
 const longWords = randWords.filter(word => word.length > 4);
 
