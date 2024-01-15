@@ -7,6 +7,7 @@ const randomNumber = Math.floor((Math.random() * 100) + 1); // feel free to mock
 
 // DONE Display "more than fifty" if randomNumber is more than fify
 // Your code here
+
 console.log(randomNumber);
 if (randomNumber > 50) {
     console.log("more than fifty")
@@ -43,8 +44,8 @@ else {
 let toDisplay = ""
 // DONE Use the ternary conditional operator to set toDisplay to "Even" if randomNumber is even and "Odd" if randomNumber is odd
 // Your code here
-toDisplay = (randomNumber % 2 == 0) ? "Even" : "Odd";
 
+toDisplay = (randomNumber % 2 == 0) ? "Even" : "Odd";
 console.log("toDisplay:", toDisplay);
 
 // Checkpoint 2.1 How do you use switch statements and when would you use them? Try researching the answer
@@ -65,6 +66,7 @@ console.log("toDisplay:", toDisplay);
 // DONE Use a for loop to print the numbers 1 to N
 const n = 10
 // Your code here
+
 for (let i = 1; i <= n; i++) {
     console.log(i);
 }
@@ -72,6 +74,7 @@ for (let i = 1; i <= n; i++) {
 const list = ["apple", "banana", "cherry", "date", "elderberry"];
 // DONE Use a while loop to display all the values in the list
 // Your code here
+
 let i = 0;
 let text = "";
 while (i < list.length) {
