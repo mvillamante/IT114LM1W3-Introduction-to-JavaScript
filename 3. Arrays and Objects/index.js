@@ -144,7 +144,6 @@ console.log("Total Units for This Term:", totalUnits);
 // Your code here
 
 let newArray = [...numbers, 70];
-
 console.log("New Array:", newArray);
 
 // DONE Going back to your IT114L object, extract the course code and units using the spread operator
