@@ -57,15 +57,8 @@ console.log(IT114L)
 // DONE Add professor name as one of the fields of the object. Display the value of professor name.
 // Your code here
 
-const IT114Lcourse = {
-    courseCode: "IT114L",
-    name: "Web Systems and Technologies (Laboratory)",
-    units: 3,
-    numberOfStudents: 40,
-    profName: "Professor Job Lipat" 
-}
-
-console.log("Professor Name:", IT114Lcourse.profName);
+IT114L.profName = "Professor Job Lipat"
+console.log("Professor Name:", IT114L.profName);
 
 // DONE Declare and array of objects with information about the courses you are taking this term
 // Your code here
