@@ -28,14 +28,14 @@ else {
 // if the number is divisible by both 3 and 5, display "fizzbuzz". otherwise, display the number
 // Your code here
 
-if (randomNumber % 3 == 0) {
+if (randomNumber % 3 == 0 && randomNumber % 5 == 0) {
+    console.log("fizzbuzz");
+}
+else if (randomNumber % 3 == 0) {
     console.log("fizz");
 }
 else if (randomNumber % 5 == 0) {
     console.log("buzz");
-}
-else if (randomNumber % 3 == 0 && randomNumber % 5 == 0) {
-    console.log("fizzbuzz");
 }
 else {
     console.log(randomNumber);
@@ -76,7 +76,6 @@ const list = ["apple", "banana", "cherry", "date", "elderberry"];
 // Your code here
 
 let i = 0;
-let text = "";
 while (i < list.length) {
     console.log(list[i]);
     i++;
