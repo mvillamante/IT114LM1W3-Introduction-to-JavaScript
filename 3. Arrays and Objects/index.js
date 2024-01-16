@@ -142,7 +142,7 @@ console.log("New Array:", newArray);
 // DONE Going back to your IT114L object, extract the course code and units using the spread operator
 // Your code here
 
-const {courseCode, units, ...rest } = IT114Lcourse;
+const {courseCode, units, ...rest } = IT114L;
 const extractInfo = { courseCode, units };
 console.log("Extracted Object:", extractInfo);
 
